@@ -23,12 +23,7 @@ export default function Weather() {
           </div>
         </div>
       </form>
-      <h1>Bangkok</h1>
-      <ul>
-        <li>Monday 15:00</li>
-        <li>Partly cloudy</li>
-      </ul>
-      <div className="row">
+      <div className="row mt-3">
         <div className="col-6">
           <div className="clearfix">
             <img
@@ -37,13 +32,19 @@ export default function Weather() {
               className="float-left"
             />
             <span className="temperature float-left">31</span>
-            <span className="units"> °C</span>
+            <span className="unit"> °C</span>
+            <div>Feels like 30 C</div>
+            <ul>
+              <li>Humidity: 85%</li>
+              <li>Wind: 1.34 km/h</li>
+            </ul>
           </div>
         </div>
         <div className="col-6">
+          <h1>Bangkok</h1>
           <ul>
-            <li>Humidity: 85%</li>
-            <li>Wind: 1.34 km/h</li>
+            <li>Monday 15:00</li>
+            <li>Partly cloudy</li>
           </ul>
         </div>
       </div>

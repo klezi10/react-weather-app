@@ -1,3 +1,30 @@
 .Weather {
   border: 2px solid #c8c2bc;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+  padding: 15px;
+}
+
+.Weather .temperature {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 68px;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 5px;
+}
+
+.Weather .unit {
+  font-size: 16px;
+  line-height: 24px;
+  position: relative;
+  top: -10px;
+}
+
+.Weather ul {
+  padding: 0;
+}
+
+.Weather li {
+  list-style: none;
 }
