@@ -2,7 +2,7 @@
   border: 2px solid #c8c2bc;
   border-radius: 4px;
   font-family: 'Poppins', sans-serif;
-  padding: 15px;
+  padding: 20px;
 }
 
 .Weather .temperature {
@@ -23,6 +23,7 @@
 
 .Weather ul {
   padding: 0;
+  margin-top: 10px;
 }
 
 .Weather li {

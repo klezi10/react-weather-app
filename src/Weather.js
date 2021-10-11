@@ -23,7 +23,7 @@ export default function Weather() {
           </div>
         </div>
       </form>
-      <div className="row mt-3">
+      <div className="row mt-4">
         <div className="col-6">
           <div className="clearfix">
             <img
@@ -33,8 +33,9 @@ export default function Weather() {
             />
             <span className="temperature float-left">31</span>
             <span className="unit"> °C</span>
-            <div>Feels like 30 C</div>
+
             <ul>
+              <li>Feels like 30°C</li>
               <li>Humidity: 85%</li>
               <li>Wind: 1.34 km/h</li>
             </ul>
