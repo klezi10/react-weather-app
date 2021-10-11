@@ -9,7 +9,13 @@ export default function App() {
         <Weather />
         <footer>
           This project was coded by Klesta |{' '}
-          <a href="https://github.com/klezi10/react-weather-app">Open-source</a>{' '}
+          <a
+            href="https://github.com/klezi10/react-weather-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source
+          </a>{' '}
         </footer>
       </div>
     </div>
