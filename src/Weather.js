@@ -35,7 +35,7 @@ export default function Weather() {
             <span className="unit"> °C</span>
 
             <ul>
-              <li>Feels like 30°C</li>
+              <li>Feels like 30° C</li>
               <li>Humidity: 85%</li>
               <li>Wind: 1.34 km/h</li>
             </ul>
