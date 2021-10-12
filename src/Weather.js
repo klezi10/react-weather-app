@@ -18,7 +18,7 @@ export default function Weather() {
             <input
               type="submit"
               value="Search"
-              className="btn btn-outline-secondary w-100"
+              className="btn btn-branding w-100"
             />
           </div>
         </div>
