@@ -1,5 +1,12 @@
 .Weather {
-  background-color: #8ac5ab;
+  background: rgb(87, 204, 153);
+  background: linear-gradient(
+    190deg,
+    rgba(87, 204, 153, 1) 0%,
+    rgba(45, 253, 218, 1) 45%,
+    rgba(45, 175, 253, 1) 93%
+  );
+
   border: 2px solid #38a3a5;
   border-radius: 4px;
   box-shadow: 2px 2px 5px;
