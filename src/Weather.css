@@ -1,6 +1,7 @@
 .Weather {
-  border: 2px solid #c8c2bc;
+  border: 2px solid #38A3A5;
   border-radius: 4px;
+  box-shadow: 2px 2px 5px;
   font-family: 'Poppins', sans-serif;
   padding: 20px;
 }
