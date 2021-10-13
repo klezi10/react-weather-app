@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="Toronto" />
+        <Weather defaultCity="Bangkok" />
         <footer>
           This project was coded by Klesta |{' '}
           <a
