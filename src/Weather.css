@@ -14,6 +14,13 @@
   opacity: 0.85;
 }
 
+.Weather canvas {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
 .Weather h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
