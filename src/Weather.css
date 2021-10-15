@@ -77,3 +77,10 @@
 .Weather li {
   list-style: none;
 }
+
+@media (max-width: 900px) {
+  .Weather .btn-branding {
+    font-size: smaller;
+    padding-left: 4px;
+  }
+}
