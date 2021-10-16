@@ -67,20 +67,20 @@ export default function Weather(props) {
                 onChange={handleCityChange}
               />
             </div>
-            <div className="col-2">
+            <div className="col-3">
               <input
                 type="submit"
                 value="Search"
-                className="btn btn-branding w-100"
+                className="btn btn-branding search-button w-100"
               />
             </div>
-            <div className="col-2">
+            <div className="col-1">
               <button
                 type="submit"
-                className="btn btn-branding w-100"
+                className="btn btn-branding geo-button"
                 onClick={handleGeolocation}
               >
-                Current
+                📍
               </button>
             </div>
           </div>

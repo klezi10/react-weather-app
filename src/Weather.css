@@ -83,4 +83,13 @@
     font-size: smaller;
     padding-left: 4px;
   }
+
+  .Weather .temperature {
+    font-size: 44px;
+    padding-left: 0;
+  }
+
+  .Weather .geo-button {
+    padding-right: 5px;
+  }
 }

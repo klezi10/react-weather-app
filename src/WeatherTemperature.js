@@ -23,10 +23,13 @@ export default function WeatherTemperature(props) {
         <span className="temperature float-left">{props.celsius}</span>
         <span className="unit">
           {' '}
-          °C |{' '}
-          <a href="/" onClick={showFahrenheit}>
-            °F
-          </a>
+          °C{' '}
+          <span className="d-none d-lg-inline">
+            |{' '}
+            <a href="/" onClick={showFahrenheit}>
+              °F
+            </a>
+          </span>
         </span>
       </span>
     );
