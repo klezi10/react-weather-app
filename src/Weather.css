@@ -16,9 +16,8 @@
 
 .Weather canvas {
   display: inline-block;
-  margin-top: 10px;
-  margin-right: 10px;
-  vertical-align: top;
+  margin: 10px 10px;
+  vertical-align: middle;
 }
 
 .Weather h1 {
