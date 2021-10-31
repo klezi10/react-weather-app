@@ -8,7 +8,16 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="Toronto" />
         <footer>
-          This project was coded by Klesta |{' '}
+          This project was coded by{' '}
+          <a
+            href="https://clever-turing-3f9e94.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {' '}
+            Klesta Luli
+          </a>{' '}
+          |{' '}
           <a
             href="https://github.com/klezi10/react-weather-app"
             target="_blank"
